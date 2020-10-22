@@ -15,7 +15,7 @@ const FlexContainer = styled.div`
 
 const Title = styled.h1`
   text-transform: uppercase;
-  font-family: "Staatliches", cursive;
+  font-family: "Staatliches", sans-serif;
   font-size: 60px;
   margin: 0;
   @media only screen and (max-width: 500px) {
