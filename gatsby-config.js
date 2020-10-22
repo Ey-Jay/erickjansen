@@ -26,6 +26,20 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Staatliches`,
+          },
+          {
+            family: `Mulish`,
+            variants: [`400`, `600`, `700`],
+          },
+        ],
+      },
+    },
+    {
       resolve: "gatsby-source-contentful",
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,

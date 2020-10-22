@@ -2,7 +2,6 @@ import React from "react"
 import { createGlobalStyle } from "styled-components"
 
 import SEO from "../components/seo"
-import "../fonts.css"
 import Header from "../components/Header"
 
 const GlobalStyle = createGlobalStyle`

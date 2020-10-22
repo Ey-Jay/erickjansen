@@ -2,7 +2,6 @@ import React, { useEffect } from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 
-import "../fonts.css"
 import Layout from "../components/Layout"
 import ProjectCard from "../components/ProjectCard"
 
