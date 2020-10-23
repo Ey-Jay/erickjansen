@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     /* color: #fcf7f8 */
     /* f5f5f5 */
     color: #f3f3f4;
-    font-family: 'Mulish', sans-serif;
+    font-family: "Mulish", sans-serif;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
