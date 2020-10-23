@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 
+import "../index.css"
 import Layout from "../components/Layout"
 
 const BackButton = styled(Link)`
