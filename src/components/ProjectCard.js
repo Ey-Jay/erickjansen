@@ -27,19 +27,16 @@ const Title = styled.a`
 
 const Stack = styled.ul`
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  margin: 0 0 25px 0;
+  margin: 0 0 25px -5px;
   padding: 0;
   text-transform: uppercase;
-  & > * + * {
-    margin-left: 5px;
-  }
 `
 
 const StackItem = styled.li`
+  display: inline-block;
   padding: 5px;
+  margin-left: 5px;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.08);
   font-size: 0.9rem;
